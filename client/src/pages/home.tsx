@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import PomodoroTimer from "@/components/PomodoroTimer";
 import YouTubePlayer from "@/components/YouTubePlayer";
 import VideoControls from "@/components/VideoControls";
+import DonationButton from "@/components/DonationButton";
 
 const Home = () => {
   const [timerMode, setTimerMode] = useState<'focus' | 'break'>('focus');
@@ -59,6 +60,9 @@ const Home = () => {
         <footer className="mt-8 text-center text-gray-500 text-sm">
           <p>Pomodoro Timer with Binaural Beats &copy; {new Date().getFullYear()}</p>
         </footer>
+        
+        {/* Donation Button */}
+        <DonationButton />
       </div>
     </>
   );
