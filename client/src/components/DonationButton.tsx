@@ -37,12 +37,12 @@ const DonationButton = () => {
       <Popover open={isOpen} onOpenChange={setIsOpen}>
         <PopoverTrigger asChild>
           <Button 
-            variant="outline" 
-            size="sm" 
-            className="fixed bottom-4 right-4 flex items-center gap-2 bg-amber-100 text-amber-900 hover:bg-amber-200 border-amber-300 shadow-md transition-all duration-300 hover:scale-105"
+            variant="default" 
+            size="lg" 
+            className="fixed bottom-6 right-6 z-[9999] flex items-center gap-2 bg-amber-500 text-white hover:bg-amber-600 border-0 shadow-xl transition-all duration-300 hover:scale-105 rounded-full px-6 py-6"
           >
-            <Coffee className="h-4 w-4" />
-            <span>Buy Me a Coffee</span>
+            <Coffee className="h-6 w-6" />
+            <span className="font-bold text-base">Buy Me a Coffee</span>
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-80 p-4 bg-white shadow-xl border border-amber-200">
