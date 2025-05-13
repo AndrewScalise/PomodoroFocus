@@ -37,8 +37,8 @@ const VideoControls = ({ onSelectVideo }: VideoControlsProps) => {
             </div>
             <div>
               <span className="block font-medium">{video.title}</span>
-              <span className="text-sm text-gray-500">{video.description}</span>
-              <span className="text-xs block mt-1 text-gray-400">
+              <span className="text-sm">{video.description}</span>
+              <span className={`text-xs block mt-1 ${index < 2 ? 'text-primary/80' : 'text-secondary/80'}`}>
                 {index < 2 ? 'Binaural Beats' : 'Lofi Music'}
               </span>
             </div>
