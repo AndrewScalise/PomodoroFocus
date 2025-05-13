@@ -20,22 +20,27 @@ const VideoControls = ({ onSelectVideo }: VideoControlsProps) => {
 
   return (
     <div className="mt-auto">
-      <h3 className="text-lg font-medium mb-2">Suggested Binaural Beats</h3>
+      <h3 className="text-lg font-medium mb-2">Suggested Study Music</h3>
       
       {/* Video selection buttons */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">
-        {videoOptions.map((video) => (
+        {videoOptions.map((video, index) => (
           <button 
             key={video.id}
             className="text-left p-3 rounded-lg flex items-center hover:bg-neutral transition border border-muted"
             onClick={() => onSelectVideo(video.id)}
           >
-            <div className="w-10 h-10 rounded bg-primary flex items-center justify-center text-white mr-3">
+            <div className={`w-10 h-10 rounded flex items-center justify-center text-white mr-3 ${
+              index < 2 ? 'bg-primary' : 'bg-secondary'
+            }`}>
               <Music size={20} />
             </div>
             <div>
               <span className="block font-medium">{video.title}</span>
               <span className="text-sm text-gray-500">{video.description}</span>
+              <span className="text-xs block mt-1 text-gray-400">
+                {index < 2 ? 'Binaural Beats' : 'Lofi Music'}
+              </span>
             </div>
           </button>
         ))}

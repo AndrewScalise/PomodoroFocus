@@ -67,14 +67,14 @@ export const videoOptions = [
     description: 'Deep Focus Study Music',
   },
   {
-    id: 'XW2cRSvHxZU',
-    title: 'Deep Concentration',
-    description: 'Study Music Alpha Waves',
+    id: '5qap5aO4i9A',
+    title: 'Lofi Hip Hop',
+    description: 'Beats to study/relax to',
   },
   {
-    id: 'oHfEu-8CL94',
-    title: 'Study Music',
-    description: 'Concentration & Focus',
+    id: 'jfKfPfyJRdk',
+    title: 'Lofi Girl',
+    description: 'Chill beats to focus',
   },
 ];
 
