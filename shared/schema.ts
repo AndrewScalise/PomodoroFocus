@@ -16,7 +16,7 @@ export const timerSessions = pgTable("timer_sessions", {
   focusTime: integer("focus_time").notNull().default(25),
   breakTime: integer("break_time").notNull().default(5),
   completedCycles: integer("completed_cycles").notNull().default(0),
-  lastVideoId: text("last_video_id").default("GjgkrklG4rA"),
+  lastVideoId: text("last_video_id").default("tU3oAyin8W4"),
   playSoundNotification: boolean("play_sound_notification").notNull().default(true),
 });
 

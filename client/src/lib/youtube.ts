@@ -57,24 +57,24 @@ export const createYouTubePlayer = (
 // Define suggested videos with their information
 export const videoOptions = [
   {
-    id: 'GjgkrklG4rA',
+    id: 'tU3oAyin8W4',
     title: 'Focus Alpha Waves',
     description: '8-10 Hz • 3 hours',
   },
   {
-    id: 'XXPqqd3QBKY',
+    id: 'zeUUM3K362k',
     title: 'Productivity Theta',
-    description: '4-7 Hz • 2 hours',
+    description: '4-7 Hz • 3 hours',
   },
   {
-    id: 'nfLIc4cjDRQ',
+    id: 'QZpdJ0nI8Sw',
     title: 'Deep Concentration',
-    description: 'Beta Waves • 1 hour',
+    description: 'Beta Waves • 3 hours',
   },
   {
-    id: 'MYM7CFh3YAI',
+    id: '9B1RJEUuVwU',
     title: 'Study Session',
-    description: 'Gamma Waves • 2.5 hours',
+    description: 'Gamma Waves • 3 hours',
   },
 ];
 

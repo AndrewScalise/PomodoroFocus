@@ -7,7 +7,7 @@ import VideoControls from "@/components/VideoControls";
 const Home = () => {
   const [timerMode, setTimerMode] = useState<'focus' | 'break'>('focus');
   const [isTimerRunning, setIsTimerRunning] = useState(false);
-  const [selectedVideoId, setSelectedVideoId] = useState('GjgkrklG4rA');
+  const [selectedVideoId, setSelectedVideoId] = useState('tU3oAyin8W4');
 
   // Handle timer mode changes (focus/break)
   const handleModeChange = (mode: 'focus' | 'break') => {
