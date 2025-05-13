@@ -62,19 +62,19 @@ export const videoOptions = [
     description: '8-10 Hz • 3 hours',
   },
   {
-    id: '5mPIw0FW1Ck',
+    id: 'WPni755-Krg',
     title: 'Productivity Theta',
-    description: '4-7 Hz • 3 hours',
+    description: 'Deep Focus Study Music',
   },
   {
-    id: 'OjMxnnd9jmE',
+    id: 'XW2cRSvHxZU',
     title: 'Deep Concentration',
-    description: 'Beta Waves • 3 hours',
+    description: 'Study Music Alpha Waves',
   },
   {
-    id: 'IrVwGPiKcG8',
-    title: 'Study Session',
-    description: 'Gamma Waves • 3 hours',
+    id: 'oHfEu-8CL94',
+    title: 'Study Music',
+    description: 'Concentration & Focus',
   },
 ];
 
