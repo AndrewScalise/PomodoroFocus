@@ -7,7 +7,7 @@ const DonationButton = () => {
   
   const handleDonation = () => {
     // Replace "YOUR_USERNAME" with your actual Buy Me a Coffee username
-    window.open("https://www.buymeacoffee.com/YOUR_USERNAME", "_blank");
+    window.open("https://www.buymeacoffee.com/mugennewjabes", "_blank");
     setShowHeart(true);
   };
   
