@@ -62,9 +62,12 @@ const VideoControls = ({ onSelectVideo }: VideoControlsProps) => {
             Load
           </Button>
         </div>
+        <div className="text-xs text-gray-500 mt-1">
+          Enter the video ID from the YouTube URL: youtube.com/watch?v=<span className="font-semibold">VIDEO_ID</span>
+        </div>
       </div>
       
-      <div className="text-sm text-gray-500 mt-2">
+      <div className="text-sm text-gray-500 mt-3">
         The video will play automatically during focus sessions
       </div>
     </div>
