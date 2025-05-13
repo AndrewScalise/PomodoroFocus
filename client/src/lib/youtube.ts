@@ -62,17 +62,17 @@ export const videoOptions = [
     description: '8-10 Hz • 3 hours',
   },
   {
-    id: 'zeUUM3K362k',
+    id: '5mPIw0FW1Ck',
     title: 'Productivity Theta',
     description: '4-7 Hz • 3 hours',
   },
   {
-    id: 'QZpdJ0nI8Sw',
+    id: 'OjMxnnd9jmE',
     title: 'Deep Concentration',
     description: 'Beta Waves • 3 hours',
   },
   {
-    id: '9B1RJEUuVwU',
+    id: 'IrVwGPiKcG8',
     title: 'Study Session',
     description: 'Gamma Waves • 3 hours',
   },
