@@ -60,9 +60,6 @@ const Home = () => {
         <footer className="mt-8 text-center text-gray-500 text-sm">
           <p>Pomodoro Timer with Binaural Beats &copy; {new Date().getFullYear()}</p>
         </footer>
-        
-        {/* Donation Button */}
-        <DonationButton />
       </div>
     </>
   );
