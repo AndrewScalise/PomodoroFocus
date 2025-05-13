@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import CircularProgressBar from "./CircularProgressBar";
 import TimerControls from "./TimerControls";
 import TimerSettings from "./TimerSettings";
+import DonationButton from "./DonationButton";
 
 interface PomodoroTimerProps {
   onModeChange: (mode: 'focus' | 'break') => void;
@@ -155,6 +156,8 @@ const PomodoroTimer = ({ onModeChange, onTimerStateChange }: PomodoroTimerProps)
         onUpdateBreakTime={updateBreakTime}
         onToggleSoundNotification={setPlaySoundNotification}
       />
+      
+      <DonationButton />
     </div>
   );
 };
