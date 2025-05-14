@@ -58,7 +58,7 @@ const Home = () => {
         
         {/* Footer */}
         <footer className="mt-8 text-center text-gray-500 text-sm">
-          <p>Pomodoro Timer with Binaural Beats &copy; {new Date().getFullYear()}</p>
+          <p>Pomodoro Timer with Beats &copy; {new Date().getFullYear()}</p>
         </footer>
       </div>
     </>
