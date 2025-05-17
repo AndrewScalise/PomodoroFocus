@@ -67,7 +67,7 @@ export const videoOptions = [
     description: 'SUPER INTELLIGENCE 🧠 ALPHA WAVES',
   },
   {
-    id: 'EEINHtysOdI&list=PLJ9JT-olOg-RbmTZmslmZZxnPXZN30VsA',
+    id: 'EEINHtysOdI',
     title: 'Mugen',
     description: 'MUGEN 「 無限 」 ☯ japanese lofi hip hop mix ☯',
   },
