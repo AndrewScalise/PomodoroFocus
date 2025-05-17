@@ -26,7 +26,7 @@ const PomodoroTimer = ({ onModeChange, onTimerStateChange }: PomodoroTimerProps)
   
   // Initialize audio element
   useEffect(() => {
-    audioRef.current = new Audio('https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3');
+    audioRef.current = new Audio('/client/src/assets/generated-icon.png');
     audioRef.current.preload = 'auto';
     
     return () => {
