@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/src/assets/generated-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Pomodoro Timer with Binaural Beats</title>
-    <meta name="description" content="A customizable Pomodoro timer with embedded YouTube binaural beats player to boost your productivity." />
+    <title>Pomodoro Timer with Youtube Beats</title>
+    <meta name="description" content="A customizable Pomodoro timer with embedded YouTube beats player to boost your productivity." />
     
     <!-- Open Graph tags for better social media sharing -->
     <meta property="og:title" content="Pomodoro Timer with Binaural Beats" />
-    <meta property="og:description" content="Boost your productivity with customizable focus and break times while listening to binaural beats." />
+    <meta property="og:description" content="Boost your productivity with customizable focus and break times while listening to beats." />
     <meta property="og:type" content="website" />
     
-    <!-- Preload audio notification -->
-    <link rel="preload" href="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3" as="audio" type="audio/mpeg">
+    <!-- Preload audio notification using "fetch" instead of "audio" -->
+    <link rel="preload" href="/client/src/assets/sms-alert-5-daniel_simon.mp3" as="fetch" crossorigin="anonymous">
   </head>
   <body>
     <div id="root"></div>
