@@ -57,19 +57,19 @@ export const createYouTubePlayer = (
 // Define suggested videos with their information
 export const videoOptions = [
   {
-    id: 'tU3oAyin8W4',
-    title: 'Focus Alpha Waves',
-    description: '8-10 Hz • 3 hours',
+    id: 'oirRMykdd5E',
+    title: '40 Hz Brain Activation',
+    description: 'Gamma Waves',
   },
   {
-    id: 'WPni755-Krg',
-    title: 'Productivity Theta',
-    description: 'Deep Focus Study Music',
+    id: 'wOGa3w9jS2k',
+    title: 'Super Intelligence Alpha Waves',
+    description: 'SUPER INTELLIGENCE 🧠 ALPHA WAVES',
   },
   {
-    id: 'lTRiuFIWV54',
-    title: 'Lofi Hip Hop',
-    description: 'Beats to study/relax to',
+    id: 'EEINHtysOdI&list=PLJ9JT-olOg-RbmTZmslmZZxnPXZN30VsA',
+    title: 'Mugen',
+    description: 'MUGEN 「 無限 」 ☯ japanese lofi hip hop mix ☯',
   },
   {
     id: 'jfKfPfyJRdk',
