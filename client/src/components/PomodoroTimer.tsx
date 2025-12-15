@@ -3,7 +3,6 @@ import CircularProgressBar from "./CircularProgressBar";
 import TimerControls from "./TimerControls";
 import TimerSettings from "./TimerSettings";
 import DonationButton from "./DonationButton";
-import notificationSound from "@/assets/sms-alert-5-daniel_simon.mp3";
 
 interface PomodoroTimerProps {
   onModeChange: (mode: "focus" | "break") => void;
@@ -30,8 +29,8 @@ const PomodoroTimer = ({
 
   // Initialize audio element
   useEffect(() => {
-    // Create audio element with imported sound file
-    const audio = new Audio(notificationSound);
+    // Create audio element from public folder
+    const audio = new Audio("/notification.mp3");
     audio.preload = "auto";
 
     audioRef.current = audio;
