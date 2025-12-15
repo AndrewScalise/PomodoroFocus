@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import PomodoroTimer from "@/components/PomodoroTimer";
 import YouTubePlayer from "@/components/YouTubePlayer";
 import VideoControls from "@/components/VideoControls";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Home = () => {
   const [timerMode, setTimerMode] = useState<"focus" | "break">("focus");
@@ -50,9 +51,12 @@ const Home = () => {
       </Helmet>
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-primary">
-          Pomodoro Timer
-        </h1>
+        <div className="flex justify-between items-center mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-primary">
+            Pomodoro Timer
+          </h1>
+          <ThemeToggle />
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column - Timer and Controls */}
@@ -62,7 +66,7 @@ const Home = () => {
           />
 
           {/* Right Column - Binaural Beats Player */}
-          <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col">
+          <div className="bg-card text-card-foreground rounded-xl shadow-lg p-6 flex flex-col">
             <h2 className="text-xl font-medium mb-4">Beats</h2>
 
             <YouTubePlayer
@@ -81,7 +85,7 @@ const Home = () => {
         </div>
 
         {/* Footer */}
-        <footer className="mt-8 text-center text-gray-500 text-sm">
+        <footer className="mt-8 text-center text-muted-foreground text-sm">
           <p>Pomodoro Timer with Beats &copy; {new Date().getFullYear()}</p>
         </footer>
       </div>

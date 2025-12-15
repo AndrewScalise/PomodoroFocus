@@ -152,7 +152,7 @@ const PomodoroTimer = ({
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
+    <div className="bg-card text-card-foreground rounded-xl shadow-lg p-6 flex flex-col items-center">
       <CircularProgressBar percentage={calculateProgress()} mode={mode}>
         {formatTime(timeRemaining)}
       </CircularProgressBar>

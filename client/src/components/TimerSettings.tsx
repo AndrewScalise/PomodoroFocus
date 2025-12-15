@@ -70,7 +70,7 @@ const TimerSettings = ({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Focus Time Setting */}
         <div className="mb-4">
-          <Label className="block text-gray-700 mb-2" htmlFor="focusTime">
+          <Label className="block mb-2" htmlFor="focusTime">
             Focus Time (minutes)
           </Label>
           <div className="flex items-center">
@@ -102,7 +102,7 @@ const TimerSettings = ({
         
         {/* Break Time Setting */}
         <div className="mb-4">
-          <Label className="block text-gray-700 mb-2" htmlFor="breakTime">
+          <Label className="block mb-2" htmlFor="breakTime">
             Break Time (minutes)
           </Label>
           <div className="flex items-center">
