@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import CircularProgressBar from "./CircularProgressBar";
+import HourglassTimer from "./HourglassTimer";
 import TimerControls from "./TimerControls";
 import TimerSettings from "./TimerSettings";
 import DonationButton from "./DonationButton";
@@ -152,9 +152,11 @@ const PomodoroTimer = ({
 
   return (
     <div className="bg-card text-card-foreground rounded-xl shadow-lg p-6 flex flex-col items-center">
-      <CircularProgressBar percentage={calculateProgress()} mode={mode}>
+      <HourglassTimer percentage={calculateProgress()} mode={mode} />
+
+      <div className="text-4xl font-bold my-4 font-mono tabular-nums">
         {formatTime(timeRemaining)}
-      </CircularProgressBar>
+      </div>
 
       <div className="text-xl font-medium mb-4 flex items-center gap-2">
         <span
