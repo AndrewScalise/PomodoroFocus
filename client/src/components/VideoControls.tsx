@@ -58,9 +58,7 @@ const VideoControls = ({
             onClick={() => onSelectVideo(video.id)}
           >
             <div
-              className={`w-10 h-10 rounded flex items-center justify-center text-white mr-3 ${
-                index < 2 ? "bg-primary" : "bg-secondary"
-              }`}
+              className={`w-10 h-10 rounded flex items-center justify-center text-white mr-3 ${"bg-primary"}`}
             >
               <Music size={20} />
             </div>
@@ -70,7 +68,7 @@ const VideoControls = ({
               <span
                 className={`text-xs block mt-1 text-primary/80`}
               >
-                {index < 2 ? "Binaural Beats" : "Lofi Music"}
+                {"Lofi Music"}
               </span>
             </div>
           </button>

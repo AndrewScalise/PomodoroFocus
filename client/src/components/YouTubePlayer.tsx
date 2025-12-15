@@ -50,7 +50,7 @@ const YouTubePlayer = ({
   // Handle player state
   useEffect(() => {
     if (isPlayerReady && playerRef.current) {
-      // Only play video during focus mode and when timer is running
+      // Only play video during focus mode when timer is running
       if (isPlaying && mode === "focus") {
         playerRef.current.playVideo();
       } else {
