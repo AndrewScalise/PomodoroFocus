@@ -7,7 +7,7 @@ import VideoControls from "@/components/VideoControls";
 const Home = () => {
   const [timerMode, setTimerMode] = useState<"focus" | "break">("focus");
   const [isTimerRunning, setIsTimerRunning] = useState(false);
-  const [selectedVideoId, setSelectedVideoId] = useState("tU3oAyin8W4");
+  const [selectedVideoId, setSelectedVideoId] = useState("1Waq8ohWbV4");
   const [showPlayer, setShowPlayer] = useState(true);
 
   // Load player visibility preference from localStorage

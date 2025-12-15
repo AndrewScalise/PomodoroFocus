@@ -57,24 +57,24 @@ export const createYouTubePlayer = (
 // Define suggested videos with their information
 export const videoOptions = [
   {
-    id: 'oirRMykdd5E',
-    title: '40 Hz Brain Activation',
-    description: 'Gamma Waves',
+    id: 'qwdzIECTqn8',
+    title: 'Christmas Lofi',
+    description: 'X-mas Lofi',
   },
   {
-    id: 'wOGa3w9jS2k',
-    title: 'Super Intelligence Alpha Waves',
-    description: 'SUPER INTELLIGENCE 🧠 ALPHA WAVES',
+    id: 'FJs41oeAnHU',
+    title: 'Tokyo Lofi',
+    description: 'Tokyo Lofi',
   },
   {
-    id: 'EEINHtysOdI',
-    title: 'Mugen',
-    description: 'MUGEN 「 無限 」 ☯ japanese lofi hip hop mix ☯',
+    id: '0w80F8FffQ4',
+    title: 'Coding',
+    description: 'Deep Focus Lofi',
   },
   {
-    id: 'jfKfPfyJRdk',
-    title: 'Lofi Girl',
-    description: 'Chill beats to focus',
+    id: '9CE6-2DwPK4',
+    title: 'Nujabes',
+    description: 'Nujabes',
   },
 ];
 
